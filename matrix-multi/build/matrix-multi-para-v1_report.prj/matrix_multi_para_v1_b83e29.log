@@ -1,0 +1,3 @@
+Compiler Command: aoc -o /home/u75983/tmp/matrix-multi-para-v1-b83e29.aocr /home/u75983/tmp/matrix-multi-para-v1-2e0bde.spv -sycl -rtl -dep-files=/home/u75983/tmp/matrix-multi-para-v1-a4abee.d -output-report-folder=/home/u75983/dpcpp-tutorial/matrix-multi/build/matrix-multi-para-v1_report.prj -g -hardware -board=intel_a10gx_pac:pac_a10
+System name: matrix_multi_para_v1_b83e29
+

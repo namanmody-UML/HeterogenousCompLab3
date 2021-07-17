@@ -1,0 +1,2439 @@
+{
+  "1138674856":
+  {
+    "nodes":
+    [
+      {
+        "name":"MMstv1.B0"
+        , "id":1139451328
+        , "start":"0"
+        , "end":"2"
+        , "details":
+        [
+          {
+            "type":"table"
+          }
+        ]
+        , "type":"bb"
+        , "children":
+        [
+          {
+            "name":"arg7"
+            , "id":1150122656
+            , "start":"1"
+            , "end":"1"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Instruction":"Input Synchronization for 'arg7'"
+                , "Max Fanout":"2"
+                , "Start Cycle":"1"
+                , "Latency":"0"
+              }
+            ]
+            , "type":"inst"
+          }
+          , {
+            "name":"FFwd Src"
+            , "id":1143821552
+            , "start":"1"
+            , "end":"1"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Instruction":"FFwd Source"
+                , "Max Fanout":"1"
+                , "Start Cycle":"1"
+                , "Latency":"0"
+              }
+            ]
+            , "type":"inst"
+          }
+          , {
+            "name":"arg6"
+            , "id":1150020896
+            , "start":"1"
+            , "end":"1"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Instruction":"Input Synchronization for 'arg6'"
+                , "Max Fanout":"2"
+                , "Start Cycle":"1"
+                , "Latency":"0"
+              }
+            ]
+            , "type":"inst"
+          }
+          , {
+            "name":"FFwd Src"
+            , "id":1149185056
+            , "start":"1"
+            , "end":"1"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Instruction":"FFwd Source"
+                , "Max Fanout":"1"
+                , "Start Cycle":"1"
+                , "Latency":"0"
+              }
+            ]
+            , "type":"inst"
+          }
+          , {
+            "name":"?"
+            , "id":1145541216
+            , "start":"1"
+            , "end":"2"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Instruction":"Feedback Read"
+                , "Variable":"Unknown variable"
+                , "Max Fanout":"4"
+                , "Start Cycle":"1"
+                , "Latency":"1"
+              }
+            ]
+            , "type":"inst"
+          }
+          , {
+            "name":"arg7"
+            , "id":1143828880
+            , "start":"1"
+            , "end":"1"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Instruction":"Input Synchronization for 'arg7'"
+                , "Max Fanout":"2"
+                , "Start Cycle":"1"
+                , "Latency":"0"
+              }
+            ]
+            , "type":"inst"
+          }
+          , {
+            "name":"FFwd Src"
+            , "id":1145551456
+            , "start":"1"
+            , "end":"1"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Instruction":"FFwd Source"
+                , "Max Fanout":"1"
+                , "Start Cycle":"1"
+                , "Latency":"0"
+              }
+            ]
+            , "type":"inst"
+          }
+        ]
+      }
+      , {
+        "name":"MMstv1.B1"
+        , "id":1139451824
+        , "start":"2"
+        , "end":"12"
+        , "details":
+        [
+          {
+            "type":"table"
+          }
+        ]
+        , "type":"bb"
+        , "children":
+        [
+          {
+            "name":"Cluster 0"
+            , "id":1142157168
+            , "start":"3"
+            , "end":"12"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Cluster Name":"i_sfc_s_c0_in_preheader275_zts6mmstv1s_c0_enter8_k0_zts6mmstv11"
+                , "Cluster Type":"Stall-Free"
+                , "Cluster Start Cycle":"1"
+                , "Cluster Latency":"9"
+              }
+            ]
+            , "type":"cluster"
+            , "children":
+            [
+              {
+                "name":"Global variable"
+                , "id":1158678064
+                , "start":"4"
+                , "end":"4"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Feedback Read"
+                    , "Variable":"Global variable"
+                    , "Max Fanout":"4"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/home/u75983/dpcpp-tutorial/matrix-multi/build/src/matrix-multi-st-v1.cpp"
+                      , "line":68
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"+"
+                , "id":1168465664
+                , "start":"4"
+                , "end":"4"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Add"
+                    , "Constant Operand":"1 (0x1)"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/home/u75983/dpcpp-tutorial/matrix-multi/build/src/matrix-multi-st-v1.cpp"
+                      , "line":68
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"arg3"
+                , "id":1167502880
+                , "start":"2"
+                , "end":"4"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Input Synchronization for 'arg3'"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"0"
+                    , "Latency":"2"
+                  }
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"+"
+                , "id":1168285936
+                , "start":"4"
+                , "end":"4"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Add"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"arg15"
+                , "id":1167550160
+                , "start":"2"
+                , "end":"4"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Input Synchronization for 'arg15'"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"0"
+                    , "Latency":"2"
+                  }
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"+"
+                , "id":1167557104
+                , "start":"4"
+                , "end":"4"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Add"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"arg14"
+                , "id":1167557456
+                , "start":"2"
+                , "end":"4"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Input Synchronization for 'arg14'"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"0"
+                    , "Latency":"2"
+                  }
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"*"
+                , "id":1168408368
+                , "start":"4"
+                , "end":"8"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Multiply"
+                    , "Max Fanout":"4"
+                    , "Start Cycle":"2"
+                    , "Latency":"4"
+                    , "Implementation Preference":"Default DSP usage"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"arg2"
+                , "id":1168286288
+                , "start":"2"
+                , "end":"4"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Input Synchronization for 'arg2'"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"0"
+                    , "Latency":"2"
+                  }
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"*"
+                , "id":1167549808
+                , "start":"4"
+                , "end":"8"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Multiply"
+                    , "Max Fanout":"4"
+                    , "Start Cycle":"2"
+                    , "Latency":"4"
+                    , "Implementation Preference":"Default DSP usage"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"arg11"
+                , "id":1168408720
+                , "start":"2"
+                , "end":"4"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Input Synchronization for 'arg11'"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"0"
+                    , "Latency":"2"
+                  }
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"+"
+                , "id":1168415664
+                , "start":"4"
+                , "end":"4"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Add"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"arg10"
+                , "id":1168416016
+                , "start":"2"
+                , "end":"4"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Input Synchronization for 'arg10'"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"0"
+                    , "Latency":"2"
+                  }
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"*"
+                , "id":1168422960
+                , "start":"4"
+                , "end":"8"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Multiply"
+                    , "Max Fanout":"4"
+                    , "Start Cycle":"2"
+                    , "Latency":"4"
+                    , "Implementation Preference":"Default DSP usage"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"arg15"
+                , "id":1168423312
+                , "start":"2"
+                , "end":"9"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Input Synchronization for 'arg15'"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"0"
+                    , "Latency":"7"
+                  }
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"+"
+                , "id":1168441200
+                , "start":"9"
+                , "end":"9"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Add"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"7"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"arg3"
+                , "id":1168441552
+                , "start":"2"
+                , "end":"9"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Input Synchronization for 'arg3'"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"0"
+                    , "Latency":"7"
+                  }
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"+"
+                , "id":1168448496
+                , "start":"9"
+                , "end":"9"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Add"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"7"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"arg11"
+                , "id":1168448848
+                , "start":"2"
+                , "end":"9"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Input Synchronization for 'arg11'"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"0"
+                    , "Latency":"7"
+                  }
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"+"
+                , "id":1168455792
+                , "start":"9"
+                , "end":"9"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Add"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"7"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"Exit"
+                , "id":1148631792
+                , "start":"9"
+                , "end":"12"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Max Fanout":"2"
+                    , "Start Cycle":"7"
+                    , "Latency":"3"
+                    , "Exit FIFO Depth":"32"
+                    , "Exit FIFO Width":"320"
+                    , "Details":"Exit FIFO depth is sized to accommodate all data that may be in-flight in the stall-free cluster; this depth will be equal to or greater than the latency of the cluster.  The width of the FIFO depends on the amount of data that needs to pass from the stall-free logic cluster to the stall-able logic below it."
+                  }
+                ]
+                , "type":"inst"
+              }
+            ]
+          }
+        ]
+      }
+      , {
+        "name":"MMstv1.B2"
+        , "id":1139157552
+        , "start":"12"
+        , "end":"17"
+        , "details":
+        [
+          {
+            "type":"table"
+          }
+        ]
+        , "type":"bb"
+        , "children":
+        [
+          {
+            "name":"Cluster 1"
+            , "id":1143931296
+            , "start":"13"
+            , "end":"17"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Cluster Name":"i_sfc_s_c0_in_preheader_zts6mmstv1s_c0_enter569_k0_zts6mmstv11"
+                , "Cluster Type":"Stall-Free"
+                , "Cluster Start Cycle":"1"
+                , "Cluster Latency":"4"
+              }
+            ]
+            , "type":"cluster"
+            , "children":
+            [
+              {
+                "name":"Global variable"
+                , "id":1168508144
+                , "start":"14"
+                , "end":"14"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Feedback Read"
+                    , "Variable":"Global variable"
+                    , "Max Fanout":"2"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"Global variable"
+                , "id":1168502976
+                , "start":"14"
+                , "end":"14"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Feedback Read"
+                    , "Variable":"Global variable"
+                    , "Max Fanout":"2"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"Global variable"
+                , "id":1168497280
+                , "start":"14"
+                , "end":"14"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Feedback Read"
+                    , "Variable":"Global variable"
+                    , "Max Fanout":"2"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"Global variable"
+                , "id":1168492208
+                , "start":"14"
+                , "end":"14"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Feedback Read"
+                    , "Variable":"Global variable"
+                    , "Max Fanout":"2"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/home/u75983/dpcpp-tutorial/matrix-multi/build/src/matrix-multi-st-v1.cpp"
+                      , "line":69
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"+"
+                , "id":1168494640
+                , "start":"14"
+                , "end":"14"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Add"
+                    , "Constant Operand":"1 (0x1)"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/home/u75983/dpcpp-tutorial/matrix-multi/build/src/matrix-multi-st-v1.cpp"
+                      , "line":69
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"Exit"
+                , "id":1148096608
+                , "start":"14"
+                , "end":"17"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Max Fanout":"2"
+                    , "Start Cycle":"2"
+                    , "Latency":"3"
+                    , "Exit FIFO Depth":"32"
+                    , "Exit FIFO Width":"640"
+                    , "Details":"Exit FIFO depth is sized to accommodate all data that may be in-flight in the stall-free cluster; this depth will be equal to or greater than the latency of the cluster.  The width of the FIFO depends on the amount of data that needs to pass from the stall-free logic cluster to the stall-able logic below it."
+                  }
+                ]
+                , "type":"inst"
+              }
+            ]
+          }
+        ]
+      }
+      , {
+        "name":"2X Partially unrolled MMstv1.B4"
+        , "id":1139157712
+        , "start":"17"
+        , "end":"320"
+        , "details":
+        [
+          {
+            "type":"table"
+          }
+        ]
+        , "type":"bb"
+        , "children":
+        [
+          {
+            "name":"Cluster 3"
+            , "id":1144760128
+            , "start":"18"
+            , "end":"28"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Cluster Name":"i_sfc_s_c0_in_crit_edge_zts6mmstv1s_c0_enter8410_k0_zts6mmstv11"
+                , "Cluster Type":"Stall-Free"
+                , "Cluster Start Cycle":"1"
+                , "Cluster Latency":"10"
+              }
+            ]
+            , "type":"cluster"
+            , "children":
+            [
+              {
+                "name":"?"
+                , "id":1168637568
+                , "start":"19"
+                , "end":"19"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Feedback Read"
+                    , "Variable":"Unknown variable"
+                    , "Max Fanout":"2"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/home/u75983/dpcpp-tutorial/matrix-multi/build/src/matrix-multi-st-v1.cpp"
+                      , "line":68
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"Global variable"
+                , "id":1168632400
+                , "start":"19"
+                , "end":"19"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Feedback Read"
+                    , "Variable":"Global variable"
+                    , "Max Fanout":"3"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"Global variable"
+                , "id":1168627232
+                , "start":"19"
+                , "end":"19"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Feedback Read"
+                    , "Variable":"Global variable"
+                    , "Max Fanout":"3"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"Xor"
+                , "id":1168608848
+                , "start":"19"
+                , "end":"20"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"1-bit Xor"
+                    , "Constant Operand":"1 (0x1)"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"2"
+                    , "Latency":"1"
+                  }
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"Global variable"
+                , "id":1168585408
+                , "start":"19"
+                , "end":"19"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Feedback Read"
+                    , "Variable":"Global variable"
+                    , "Max Fanout":"3"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/home/u75983/dpcpp-tutorial/matrix-multi/build/src/matrix-multi-st-v1.cpp"
+                      , "line":69
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"Global variable"
+                , "id":1168566624
+                , "start":"19"
+                , "end":"19"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Feedback Read"
+                    , "Variable":"Global variable"
+                    , "Max Fanout":"2"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"Global variable"
+                , "id":1168564192
+                , "start":"19"
+                , "end":"19"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Feedback Read"
+                    , "Variable":"Global variable"
+                    , "Max Fanout":"4"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/home/u75983/dpcpp-tutorial/matrix-multi/build/src/matrix-multi-st-v1.cpp"
+                      , "line":72
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"+"
+                , "id":1168609200
+                , "start":"19"
+                , "end":"19"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Add"
+                    , "Constant Operand":"2 (0x2)"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/home/u75983/dpcpp-tutorial/matrix-multi/build/src/matrix-multi-st-v1.cpp"
+                      , "line":72
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"Or"
+                , "id":1168577328
+                , "start":"19"
+                , "end":"19"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Or"
+                    , "Constant Operand":"1 (0x1)"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/home/u75983/dpcpp-tutorial/matrix-multi/build/src/matrix-multi-st-v1.cpp"
+                      , "line":72
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"+"
+                , "id":1168571792
+                , "start":"19"
+                , "end":"19"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Add"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"arg0"
+                , "id":1168572144
+                , "start":"17"
+                , "end":"20"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Input Synchronization for 'arg0'"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"0"
+                    , "Latency":"3"
+                  }
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"Ptr. Comp."
+                , "id":1168575520
+                , "start":"19"
+                , "end":"20"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Pointer Computation"
+                    , "Max Fanout":"7"
+                    , "Start Cycle":"2"
+                    , "Latency":"1"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":1542
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"FFwd Dest"
+                , "id":1168577680
+                , "start":"19"
+                , "end":"19"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"FFwd Destination"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"+"
+                , "id":1168579904
+                , "start":"19"
+                , "end":"19"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Add"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"FFwd Dest"
+                , "id":1168580256
+                , "start":"19"
+                , "end":"19"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"FFwd Destination"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"*"
+                , "id":1168582480
+                , "start":"19"
+                , "end":"23"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Multiply"
+                    , "Max Fanout":"4"
+                    , "Start Cycle":"2"
+                    , "Latency":"4"
+                    , "Implementation Preference":"Default DSP usage"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"FFwd Dest"
+                , "id":1168582832
+                , "start":"24"
+                , "end":"24"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"FFwd Destination"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"7"
+                    , "Latency":"0"
+                  }
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"+"
+                , "id":1168585056
+                , "start":"24"
+                , "end":"24"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Add"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"7"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"+"
+                , "id":1168590576
+                , "start":"24"
+                , "end":"24"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Add"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"7"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"arg4"
+                , "id":1168590928
+                , "start":"17"
+                , "end":"25"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Input Synchronization for 'arg4'"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"0"
+                    , "Latency":"8"
+                  }
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"Ptr. Comp."
+                , "id":1168594304
+                , "start":"24"
+                , "end":"25"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Pointer Computation"
+                    , "Max Fanout":"7"
+                    , "Start Cycle":"7"
+                    , "Latency":"1"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":1542
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"FFwd Dest"
+                , "id":1168596112
+                , "start":"19"
+                , "end":"19"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"FFwd Destination"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"+"
+                , "id":1168598336
+                , "start":"19"
+                , "end":"19"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Add"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"FFwd Dest"
+                , "id":1168598688
+                , "start":"19"
+                , "end":"19"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"FFwd Destination"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"2"
+                    , "Latency":"0"
+                  }
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"*"
+                , "id":1168600912
+                , "start":"19"
+                , "end":"23"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Multiply"
+                    , "Max Fanout":"4"
+                    , "Start Cycle":"2"
+                    , "Latency":"4"
+                    , "Implementation Preference":"Default DSP usage"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"FFwd Dest"
+                , "id":1168601264
+                , "start":"24"
+                , "end":"24"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"FFwd Destination"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"7"
+                    , "Latency":"0"
+                  }
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"+"
+                , "id":1168603488
+                , "start":"24"
+                , "end":"24"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Add"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"7"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"+"
+                , "id":1168603840
+                , "start":"24"
+                , "end":"24"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"64-bit Integer Add"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"7"
+                    , "Latency":"0"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":829
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"arg4"
+                , "id":1168604192
+                , "start":"17"
+                , "end":"25"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Input Synchronization for 'arg4'"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"0"
+                    , "Latency":"8"
+                  }
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"Ptr. Comp."
+                , "id":1168607040
+                , "start":"24"
+                , "end":"25"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"Pointer Computation"
+                    , "Max Fanout":"7"
+                    , "Start Cycle":"7"
+                    , "Latency":"1"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                      , "line":1542
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"Exit"
+                , "id":1144545472
+                , "start":"25"
+                , "end":"28"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Max Fanout":"2"
+                    , "Start Cycle":"8"
+                    , "Latency":"3"
+                    , "Exit FIFO Depth":"32"
+                    , "Exit FIFO Width":"832"
+                    , "Details":"Exit FIFO depth is sized to accommodate all data that may be in-flight in the stall-free cluster; this depth will be equal to or greater than the latency of the cluster.  The width of the FIFO depends on the amount of data that needs to pass from the stall-free logic cluster to the stall-able logic below it."
+                  }
+                ]
+                , "type":"inst"
+              }
+            ]
+          }
+          , {
+            "name":"LD"
+            , "id":1148074528
+            , "start":"28"
+            , "end":"220"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Instruction":"Load"
+                , "Width":"32 bits"
+                , "LSU Style":"Burst-coalesced"
+                , "Stall-free":"No"
+                , "Global Memory":"Yes"
+                , "Max Fanout":"1"
+                , "Start Cycle":"11"
+                , "Latency":"192"
+              }
+            ]
+            , "debug":
+            [
+              [
+                {
+                  "filename":"/home/u75983/dpcpp-tutorial/matrix-multi/build/src/matrix-multi-st-v1.cpp"
+                  , "line":73
+                }
+              ]
+            ]
+            , "type":"inst"
+          }
+          , {
+            "name":"LD"
+            , "id":1147902640
+            , "start":"28"
+            , "end":"308"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Instruction":"Load"
+                , "Width":"64 bits"
+                , "LSU Style":"Burst-coalesced non-aligned"
+                , "Stall-free":"No"
+                , "Global Memory":"Yes"
+                , "Max Fanout":"2"
+                , "Start Cycle":"11"
+                , "Latency":"280"
+              }
+            ]
+            , "debug":
+            [
+              [
+                {
+                  "filename":"/home/u75983/dpcpp-tutorial/matrix-multi/build/src/matrix-multi-st-v1.cpp"
+                  , "line":73
+                }
+              ]
+            ]
+            , "type":"inst"
+          }
+          , {
+            "name":"LD"
+            , "id":1147814912
+            , "start":"28"
+            , "end":"220"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Instruction":"Load"
+                , "Width":"32 bits"
+                , "LSU Style":"Burst-coalesced"
+                , "Stall-free":"No"
+                , "Global Memory":"Yes"
+                , "Max Fanout":"1"
+                , "Start Cycle":"11"
+                , "Latency":"192"
+              }
+            ]
+            , "debug":
+            [
+              [
+                {
+                  "filename":"/home/u75983/dpcpp-tutorial/matrix-multi/build/src/matrix-multi-st-v1.cpp"
+                  , "line":73
+                }
+              ]
+            ]
+            , "type":"inst"
+          }
+          , {
+            "name":"Cluster 4"
+            , "id":1145776592
+            , "start":"308"
+            , "end":"320"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Cluster Name":"i_sfc_s_c1_in_crit_edge_zts6mmstv1s_c1_enter_k0_zts6mmstv17"
+                , "Cluster Type":"Stall-Free"
+                , "Cluster Start Cycle":"291"
+                , "Cluster Latency":"12"
+              }
+            ]
+            , "type":"cluster"
+            , "children":
+            [
+              {
+                "name":"f32 Dot-2"
+                , "id":1168676128
+                , "start":"308"
+                , "end":"313"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"32-bit Floating-point Dot Product of Size 2"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"291"
+                    , "Latency":"5"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/home/u75983/dpcpp-tutorial/matrix-multi/build/src/matrix-multi-st-v1.cpp"
+                      , "line":73
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"f32 FP Accum"
+                , "id":1168677024
+                , "start":"313"
+                , "end":"317"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"32-bit Floating-point Accumulator"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"296"
+                    , "Latency":"4"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/home/u75983/dpcpp-tutorial/matrix-multi/build/src/matrix-multi-st-v1.cpp"
+                      , "line":73
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"Exit"
+                , "id":1148317936
+                , "start":"317"
+                , "end":"320"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Max Fanout":"2"
+                    , "Start Cycle":"300"
+                    , "Latency":"3"
+                    , "Exit FIFO Depth":"32"
+                    , "Exit FIFO Width":"64"
+                    , "Details":"Exit FIFO depth is sized to accommodate all data that may be in-flight in the stall-free cluster; this depth will be equal to or greater than the latency of the cluster.  The width of the FIFO depends on the amount of data that needs to pass from the stall-free logic cluster to the stall-able logic below it."
+                  }
+                ]
+                , "type":"inst"
+              }
+            ]
+          }
+        ]
+      }
+      , {
+        "name":"MMstv1.B3"
+        , "id":1139157632
+        , "start":"320"
+        , "end":"332"
+        , "details":
+        [
+          {
+            "type":"table"
+          }
+        ]
+        , "type":"bb"
+        , "children":
+        [
+          {
+            "name":"arg12"
+            , "id":1148134000
+            , "start":"321"
+            , "end":"321"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Instruction":"Input Synchronization for 'arg12'"
+                , "Max Fanout":"1"
+                , "Start Cycle":"1"
+                , "Latency":"0"
+              }
+            ]
+            , "type":"inst"
+          }
+          , {
+            "name":"arg8"
+            , "id":1148046688
+            , "start":"321"
+            , "end":"321"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Instruction":"Input Synchronization for 'arg8'"
+                , "Max Fanout":"1"
+                , "Start Cycle":"1"
+                , "Latency":"0"
+              }
+            ]
+            , "type":"inst"
+          }
+          , {
+            "name":"+"
+            , "id":1148167120
+            , "start":"320"
+            , "end":"320"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Instruction":"64-bit Integer Add"
+                , "Max Fanout":"1"
+                , "Start Cycle":"0"
+                , "Latency":"0"
+              }
+            ]
+            , "debug":
+            [
+              [
+                {
+                  "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                  , "line":829
+                }
+              ]
+            ]
+            , "type":"inst"
+          }
+          , {
+            "name":"Ptr. Comp."
+            , "id":1148129584
+            , "start":"320"
+            , "end":"321"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Instruction":"Pointer Computation"
+                , "Max Fanout":"4"
+                , "Start Cycle":"0"
+                , "Latency":"1"
+              }
+            ]
+            , "debug":
+            [
+              [
+                {
+                  "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                  , "line":1542
+                }
+              ]
+            ]
+            , "type":"inst"
+          }
+          , {
+            "name":"LD"
+            , "id":1148829808
+            , "start":"321"
+            , "end":"324"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Instruction":"Load"
+                , "Width":"32 bits"
+                , "LSU Style":"Prefetching"
+                , "Stall-free":"No"
+                , "Global Memory":"Yes"
+                , "Max Fanout":"1"
+                , "Start Cycle":"1"
+                , "Latency":"3"
+              }
+            ]
+            , "debug":
+            [
+              [
+                {
+                  "filename":"/home/u75983/dpcpp-tutorial/matrix-multi/build/src/matrix-multi-st-v1.cpp"
+                  , "line":74
+                }
+              ]
+            ]
+            , "type":"inst"
+          }
+          , {
+            "name":"Cluster 2"
+            , "id":1144530800
+            , "start":"324"
+            , "end":"330"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Cluster Name":"i_sfc_s_c0_in_crit_edge325_zts6mmstv1s_c0_enter71_k0_zts6mmstv19"
+                , "Cluster Type":"Stall-Free"
+                , "Cluster Start Cycle":"4"
+                , "Cluster Latency":"6"
+              }
+            ]
+            , "type":"cluster"
+            , "children":
+            [
+              {
+                "name":"f32 +"
+                , "id":1168535440
+                , "start":"324"
+                , "end":"327"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Instruction":"32-bit Floating-point Add"
+                    , "Max Fanout":"1"
+                    , "Start Cycle":"4"
+                    , "Latency":"3"
+                    , "Implementation Preference":"Default DSP usage"
+                  }
+                ]
+                , "debug":
+                [
+                  [
+                    {
+                      "filename":"/home/u75983/dpcpp-tutorial/matrix-multi/build/src/matrix-multi-st-v1.cpp"
+                      , "line":74
+                    }
+                  ]
+                ]
+                , "type":"inst"
+              }
+              , {
+                "name":"Exit"
+                , "id":1147881120
+                , "start":"327"
+                , "end":"330"
+                , "details":
+                [
+                  {
+                    "type":"table"
+                    , "Max Fanout":"2"
+                    , "Start Cycle":"7"
+                    , "Latency":"3"
+                    , "Exit FIFO Depth":"32"
+                    , "Exit FIFO Width":"64"
+                    , "Details":"Exit FIFO depth is sized to accommodate all data that may be in-flight in the stall-free cluster; this depth will be equal to or greater than the latency of the cluster.  The width of the FIFO depends on the amount of data that needs to pass from the stall-free logic cluster to the stall-able logic below it."
+                  }
+                ]
+                , "type":"inst"
+              }
+            ]
+          }
+          , {
+            "name":"+"
+            , "id":1144860048
+            , "start":"320"
+            , "end":"320"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Instruction":"64-bit Integer Add"
+                , "Max Fanout":"1"
+                , "Start Cycle":"0"
+                , "Latency":"0"
+              }
+            ]
+            , "debug":
+            [
+              [
+                {
+                  "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                  , "line":829
+                }
+              ]
+            ]
+            , "type":"inst"
+          }
+          , {
+            "name":"Ptr. Comp."
+            , "id":1147820800
+            , "start":"320"
+            , "end":"330"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Instruction":"Pointer Computation"
+                , "Max Fanout":"4"
+                , "Start Cycle":"0"
+                , "Latency":"10"
+              }
+            ]
+            , "debug":
+            [
+              [
+                {
+                  "filename":"/glob/development-tools/versions/oneapi/2021.3/inteloneapi/compiler/2021.3.0/linux/bin/../include/sycl/CL/sycl/accessor.hpp"
+                  , "line":1535
+                }
+              ]
+            ]
+            , "type":"inst"
+          }
+          , {
+            "name":"ST"
+            , "id":1148248816
+            , "start":"330"
+            , "end":"332"
+            , "details":
+            [
+              {
+                "type":"table"
+                , "Instruction":"Store"
+                , "Width":"32 bits"
+                , "LSU Style":"Burst-coalesced"
+                , "Stall-free":"No"
+                , "Global Memory":"Yes"
+                , "Max Fanout":"1"
+                , "Start Cycle":"10"
+                , "Latency":"2"
+              }
+            ]
+            , "debug":
+            [
+              [
+                {
+                  "filename":"/home/u75983/dpcpp-tutorial/matrix-multi/build/src/matrix-multi-st-v1.cpp"
+                  , "line":74
+                }
+              ]
+            ]
+            , "type":"inst"
+          }
+        ]
+      }
+      , {
+        "name":"MMstv1.B5"
+        , "id":1139157792
+        , "start":"332"
+        , "end":"332"
+        , "details":
+        [
+          {
+            "type":"table"
+          }
+        ]
+        , "type":"bb"
+      }
+      , {
+        "name":"MMstv1.B6"
+        , "id":1139157872
+        , "start":"332"
+        , "end":"333"
+        , "details":
+        [
+          {
+            "type":"table"
+          }
+        ]
+        , "type":"bb"
+      }
+    ]
+    , "links":
+    [
+      {
+        "from":1139157792
+        , "to":1139157872
+      }
+      , {
+        "from":1139157792
+        , "to":1139451824
+      }
+      , {
+        "from":1147820800
+        , "to":1148248816
+      }
+      , {
+        "from":1144860048
+        , "to":1147820800
+      }
+      , {
+        "from":1148829808
+        , "to":1144530800
+      }
+      , {
+        "from":1148129584
+        , "to":1148829808
+      }
+      , {
+        "from":1148046688
+        , "to":1147820800
+      }
+      , {
+        "from":1139157632
+        , "to":1139157792
+      }
+      , {
+        "from":1139157632
+        , "to":1139157552
+      }
+      , {
+        "from":1168502976
+        , "to":1148096608
+      }
+      , {
+        "from":1168508144
+        , "to":1148096608
+      }
+      , {
+        "from":1168577328
+        , "to":1168598336
+      }
+      , {
+        "from":1168455792
+        , "to":1148631792
+      }
+      , {
+        "from":1168448848
+        , "to":1168455792
+      }
+      , {
+        "from":1168423312
+        , "to":1168441200
+      }
+      , {
+        "from":1148167120
+        , "to":1148129584
+      }
+      , {
+        "from":1167549808
+        , "to":1168448496
+      }
+      , {
+        "from":1168408368
+        , "to":1168441200
+      }
+      , {
+        "from":1139451328
+        , "to":1139451824
+      }
+      , {
+        "from":1167557104
+        , "to":1168408368
+      }
+      , {
+        "from":1168596112
+        , "to":1168598336
+      }
+      , {
+        "from":1168422960
+        , "to":1168455792
+      }
+      , {
+        "from":1150020896
+        , "to":1149185056
+      }
+      , {
+        "from":1168577680
+        , "to":1168579904
+      }
+      , {
+        "from":1167502880
+        , "to":1168285936
+      }
+      , {
+        "from":1168677024
+        , "to":1148317936
+      }
+      , {
+        "from":1167557456
+        , "to":1168408368
+      }
+      , {
+        "from":1150122656
+        , "to":1143821552
+      }
+      , {
+        "from":1139157552
+        , "to":1139157712
+      }
+      , {
+        "from":1168286288
+        , "to":1167549808
+      }
+      , {
+        "from":1168408720
+        , "to":1168415664
+      }
+      , {
+        "from":1168564192
+        , "to":1168571792
+      }
+      , {
+        "from":1168564192
+        , "to":1168577328
+      }
+      , {
+        "from":1168564192
+        , "to":1168579904
+      }
+      , {
+        "from":1168564192
+        , "to":1168609200
+      }
+      , {
+        "from":1143828880
+        , "to":1145551456
+      }
+      , {
+        "from":1168416016
+        , "to":1168422960
+      }
+      , {
+        "from":1144760128
+        , "to":1147814912
+      }
+      , {
+        "from":1144760128
+        , "to":1147902640
+      }
+      , {
+        "from":1144760128
+        , "to":1148074528
+      }
+      , {
+        "from":1144760128
+        , "to":1145776592
+      }
+      , {
+        "from":1168415664
+        , "to":1168422960
+      }
+      , {
+        "from":1167550160
+        , "to":1167557104
+      }
+      , {
+        "from":1168448496
+        , "to":1148631792
+      }
+      , {
+        "from":1168492208
+        , "to":1148096608
+      }
+      , {
+        "from":1168492208
+        , "to":1168494640
+      }
+      , {
+        "from":1139157712
+        , "to":1139157632
+      }
+      , {
+        "from":1168637568
+        , "to":1144545472
+      }
+      , {
+        "from":1168600912
+        , "to":1168603488
+      }
+      , {
+        "from":1168285936
+        , "to":1167549808
+      }
+      , {
+        "from":1158678064
+        , "to":1167557104
+      }
+      , {
+        "from":1158678064
+        , "to":1168285936
+      }
+      , {
+        "from":1158678064
+        , "to":1168415664
+      }
+      , {
+        "from":1158678064
+        , "to":1168465664
+      }
+      , {
+        "from":1168441552
+        , "to":1168448496
+      }
+      , {
+        "from":1168582832
+        , "to":1168585056
+      }
+      , {
+        "from":1168572144
+        , "to":1168575520
+      }
+      , {
+        "from":1168566624
+        , "to":1168571792
+      }
+      , {
+        "from":1168598688
+        , "to":1168600912
+      }
+      , {
+        "from":1168632400
+        , "to":1144545472
+      }
+      , {
+        "from":1168535440
+        , "to":1147881120
+      }
+      , {
+        "from":1168575520
+        , "to":1144545472
+      }
+      , {
+        "from":1168627232
+        , "to":1144545472
+      }
+      , {
+        "from":1168590576
+        , "to":1168594304
+      }
+      , {
+        "from":1168601264
+        , "to":1168603488
+      }
+      , {
+        "from":1168585408
+        , "to":1144545472
+      }
+      , {
+        "from":1168585408
+        , "to":1168590576
+      }
+      , {
+        "from":1168585408
+        , "to":1168603840
+      }
+      , {
+        "from":1168582480
+        , "to":1168585056
+      }
+      , {
+        "from":1168571792
+        , "to":1168575520
+      }
+      , {
+        "from":1168598336
+        , "to":1168600912
+      }
+      , {
+        "from":1168579904
+        , "to":1168582480
+      }
+      , {
+        "from":1147814912
+        , "to":1145776592
+      }
+      , {
+        "from":1168580256
+        , "to":1168582480
+      }
+      , {
+        "from":1168585056
+        , "to":1168590576
+      }
+      , {
+        "from":1168590928
+        , "to":1168594304
+      }
+      , {
+        "from":1168594304
+        , "to":1144545472
+      }
+      , {
+        "from":1168608848
+        , "to":1144545472
+      }
+      , {
+        "from":1148074528
+        , "to":1145776592
+      }
+      , {
+        "from":1168603488
+        , "to":1168603840
+      }
+      , {
+        "from":1168603840
+        , "to":1168607040
+      }
+      , {
+        "from":1148134000
+        , "to":1148129584
+      }
+      , {
+        "from":1168441200
+        , "to":1148631792
+      }
+      , {
+        "from":1139451824
+        , "to":1139157552
+      }
+      , {
+        "from":1168604192
+        , "to":1168607040
+      }
+      , {
+        "from":1144530800
+        , "to":1148248816
+      }
+      , {
+        "from":1168607040
+        , "to":1144545472
+      }
+      , {
+        "from":1168497280
+        , "to":1148096608
+      }
+      , {
+        "from":1147902640
+        , "to":1145776592
+      }
+      , {
+        "from":1168676128
+        , "to":1168677024
+      }
+    ]
+  }
+}
